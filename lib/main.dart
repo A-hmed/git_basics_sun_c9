@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
         GameBoard.routeName: (_) => GameBoard(),
         GameBoardSplash.routeName: (_) => GameBoardSplash(),
       },
-      initialRoute: GameBoardSplash.routeName,
+      initialRoute: Calculator.routeName,
     );
   }
 }

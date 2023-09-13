@@ -10,7 +10,7 @@ class CalculatorButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return Expanded(
         child: Container(
-            margin: EdgeInsets.all(8),
+            margin: EdgeInsets.all(12),
             child: ElevatedButton(
                 onPressed: () {
                   onClick(digit);
